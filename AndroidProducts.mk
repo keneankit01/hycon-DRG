@@ -14,13 +14,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_DRG_sprout.mk \
-    $(LOCAL_DIR)/potato_DRG_sprout.mk
+    $(LOCAL_DIR)/hycon_DRG_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_DRG_sprout-user \
-    lineage_DRG_sprout-userdebug \
-    lineage_DRG_sprout-eng \
-    potato_DRG_sprout-user \
-    potato_DRG_sprout-userdebug \
-    potato_DRG_sprout-eng
+    hycon_DRG_sprout-user \
+    hycon_DRG_sprout-userdebug \
+    hycon_DRG_sprout-eng
+
