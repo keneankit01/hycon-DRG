@@ -26,6 +26,12 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Set Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
+#hycon studd
+TARGET_USES_FACE_UNLOCK := true
+HYCON_BUILD_TYPE=OFFICIAL
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+
 # Boot Animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2280
