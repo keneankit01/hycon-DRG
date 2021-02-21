@@ -14,10 +14,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/hycon_DRG_sprout.mk
+    $(LOCAL_DIR)/aosp_DRG_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    hycon_DRG_sprout-user \
-    hycon_DRG_sprout-userdebug \
-    hycon_DRG_sprout-eng
-
+    aosp_DRG_sprout-user \
+    aosp_DRG_sprout-userdebug \
+    aosp_DRG_sprout-eng
