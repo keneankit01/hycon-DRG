@@ -27,7 +27,8 @@ $(call inherit-product, vendor/nokia/DRG_sprout/DRG_sprout-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
+    $(DEVICE_PATH)/overlay \
+    $(DEVICE_PATH)/overlay-ancient
 
 PRODUCT_PACKAGES += \
 		NoCutoutOverlay
@@ -401,8 +402,8 @@ PRODUCT_BOOT_JARS += \
     telephony-ext
 
 # Thermal
-PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.qti
+#PRODUCT_PACKAGES += \
+#    android.hardware.thermal@2.0-service.qti
 
 # Trust
 PRODUCT_PACKAGES += \

@@ -14,9 +14,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_DRG_sprout.mk
+    $(LOCAL_DIR)/ancient_DRG_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_DRG_sprout-user \
-    aosp_DRG_sprout-userdebug \
-    aosp_DRG_sprout-eng
+    ancient_DRG_sprout-user \
+    ancient_DRG_sprout-userdebug \
+    ancient_DRG_sprout-eng

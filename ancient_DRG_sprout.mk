@@ -29,13 +29,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 #Anciet STUFF
 ANCIENT_OFFICIAL := true
 FORCE_OTA := true
+TARGET_BOOT_ANIMATION_RES := 1080
+ANCIENT_GAPPS=true
 # Face Unlock
 $(call inherit-product, external/motorola/faceunlock/config.mk)
 # Google Apps
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
-$(call inherit-product, vendor/gapps/config.mk)
-
+#$(call inherit-product, vendor/gapps/config.mk)
 # Boot Animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2280
